@@ -1,0 +1,20 @@
+{
+  "name": "kaydansky/correlation-coefficient",
+  "description": "A numerical measure of some type of correlation, meaning a statistical relationship between two variables.",
+  "authors": [
+    {
+      "name": "Alexander Kaydansky",
+      "email": "kaydansky@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "license": "MIT",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Correlation\\": "src/"
+    }
+  }
+}
