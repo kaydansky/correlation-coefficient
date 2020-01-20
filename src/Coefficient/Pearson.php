@@ -55,11 +55,10 @@ class Pearson
 
         $sumX = array_sum($a1);
         $sumY = array_sum($a2);
+        $denominator = sqrt(($n * array_sum($calc['x2']) - ($sumX ** 2)) *
+            ($n * array_sum($calc['y2']) - ($sumY ** 2))
+        );
 
-        return ($n * array_sum($calc['xy']) - ($sumX * $sumY)) /
-            sqrt(
-                ($n * array_sum($calc['x2']) - ($sumX ** 2)) *
-                ($n * array_sum($calc['y2']) - ($sumY ** 2))
-            );
+        return $denominator != 0 ? ($n * array_sum($calc['xy']) - ($sumX * $sumY)) / $denominator : 0;
     }
 }
