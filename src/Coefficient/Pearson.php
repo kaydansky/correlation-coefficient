@@ -59,6 +59,6 @@ class Pearson
             ($n * array_sum($calc['y2']) - ($sumY ** 2))
         );
 
-        return $denominator != 0 ? ($n * array_sum($calc['xy']) - ($sumX * $sumY)) / $denominator : 0;
+        return $denominator != 0 ? ($n * array_sum($calc['xy']) - ($sumX * $sumY)) / $denominator : 1;
     }
 }
