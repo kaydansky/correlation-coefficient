@@ -1,6 +1,10 @@
 {
   "name": "kaydansky/correlation-coefficient",
   "description": "A numerical measure of some type of correlation, meaning a statistical relationship between two variables.",
+  "keywords": ["correlation", "coefficient", "Pearson", "Spearman"],
+  "homepage": "https://github.com/kaydansky/correlation-coefficient",
+  "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "Alexander Kaydansky",
@@ -10,8 +14,6 @@
   "require": {
     "php": ">=7.4.0"
   },
-  "license": "MIT",
-  "type": "library",
   "autoload": {
     "psr-4": {
       "Correlation\\": "src/"
