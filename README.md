@@ -15,6 +15,10 @@ Two types of correlation coefficient are implemented currently:
 
 Unlimited instance number of every type's object.
 
+## Example of usage:
+
+[Correlation Coefficient Calculator](http://cc-calculator.ruscoder.com)
+
 ## Requirements
 
 * PHP >= 7.4.0
@@ -24,10 +28,6 @@ Unlimited instance number of every type's object.
 ```
 $ composer require kaydansky/correlation-coefficient
 ```
-
-## Example of usage:
-
-[Correlation Coefficient Calculator](http://cc-calculator.ruscoder.com)
 
 ## Basic Usage
 
