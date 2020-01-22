@@ -17,7 +17,7 @@ Unlimited instance number of every type's object.
 
 ## Example of usage:
 
-[Correlation Coefficient Calculator](http://cc-calculator.ruscoder.com)
+[Correlation Coefficient Calculator](https://cc-calculator.ruscoder.com)
 
 ## Requirements
 
