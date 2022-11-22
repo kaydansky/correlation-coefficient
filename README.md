@@ -70,7 +70,7 @@ $correlation->spearman($arrayX, $arrayY);
 float|int $coefficient; // Value from -1 to 1
 float|int $percentage; // Same value percentage
 ```
-* Every array must contain numeric values only: integer, float, numeric string.
+* Every argument array must contain numeric values only: integer, float, numeric string.
 * Arrays pair must have equal number of elements.
 
 ## License
